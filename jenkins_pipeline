@@ -1,0 +1,36 @@
+pipeline {
+    agent {label "dkdkt"}
+        
+    stages {
+        stage("pull stage") {
+            steps{                        
+                dir("/home/ec2-user/dkdkt_renewal/") {
+                    echo "--pull stage start--"
+                    sh "pwd"
+                    sh "git pull origin main"
+                }
+            }
+        }
+        stage("delete old stage") {
+            steps{     
+                dir("/home/ec2-user/dkdkt_renewal/") {   
+                    echo "--delete old stage start--"
+                    sh "docker ps -a -q | grep dkdkt && docker stop dkdkt || echo 'no need to'"
+                    sh "docker system prune --force --all"
+                    echo "wtf"
+                }
+                
+            }
+        }
+        stage("deploy stage") {
+            steps {                                        
+                dir("/home/ec2-user/dkdkt_renewal/") {
+                    echo "--deploy stage start--"
+                    sh "docker build . -t dkdkt/latest"
+                    sh "docker run -p 80:80 --name dkdkt dkdkt/latest"
+                    echo "--deploy done--"
+                }
+            }
+        }
+    }    
+}
