@@ -27,7 +27,7 @@ pipeline {
                 dir("/home/ec2-user/dkdkt_renewal/") {
                     echo "--deploy stage start--"
                     sh "docker build . -t dkdkt/latest"
-                    sh "docker run -p 80:80 --name dkdkt dkdkt/latest"
+                    sh "docker run -p 80:80 -d --name dkdkt dkdkt/latest"
                     echo "--deploy done--"
                 }
             }
