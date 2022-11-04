@@ -104,8 +104,8 @@ def finetune(model):
     model = lgb.train(params, lgb_train, evals_result=eval_result, keep_training_booster=True, init_model=model)
     # mlflow.log_metric('AUC', eval_result['train']['auc'][-1])
    
-    now = datetime.today().strftime('\%Y-\%m-\%d')
-    # model.save_model(f'./model/lgbm/lgbm_{now}_finetunned.txt')
+    now = datetime.today().strftime('%Y%m%d')
+    model.save_model(f'./model/lgbm/lgbm_{now}_finetunned.txt')
     # mlflow.lightgbm.log_model(model, 'save_model')
     # mlflow.end_run()
     return model
