@@ -22,3 +22,4 @@ CMD [ "python", "./server.py" ]
 
 # docker build . -t test/test
 # docker run -p 80:80 -d --name dkdkt test/test
+# git push test
