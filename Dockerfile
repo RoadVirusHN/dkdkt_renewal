@@ -21,4 +21,4 @@ RUN pip install -r requirements.txt
 CMD [ "python", "./server.py" ]
 
 # docker build . -t test/test
-# docker run -p 80:80 --name dkdkt test/test
+# docker run -p 80:80 -d --name dkdkt test/test
