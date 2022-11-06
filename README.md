@@ -15,7 +15,7 @@
   
 ## 시연(Showcase)
 
-<a class="badge-anchor" target="_blank" rel="noopener noreferrer" href="https://www.ec2-13-209-70-152.ap-northeast-2.compute.amazonaws.com"><img style="margin: 3px;" class="badge" title="시연용 웹사이트(Showcase website)" src="https://img.shields.io/badge/시연용 웹사이트(Showcase website)-skyblue?style=for-the-badge&logo=googlechrome"></a> <img src="https://badgen.net/github/status/micromatch/micromatch/4.0.1" >
+<a class="badge-anchor" target="_blank" rel="noopener noreferrer" href="http://www.ec2-13-209-70-152.ap-northeast-2.compute.amazonaws.com"><img style="margin: 3px;" class="badge" title="시연용 웹사이트(Showcase website)" src="https://img.shields.io/badge/시연용 웹사이트(Showcase website)-skyblue?style=for-the-badge&logo=googlechrome"></a> <img src="https://badgen.net/github/status/micromatch/micromatch/4.0.1" >
 - 서버 비용 관계로 일부 기간 동안에는 작동하지 않습니다.
 
 ## 배포(Deployment)
