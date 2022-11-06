@@ -7,8 +7,7 @@
 > DKT(Deep Knowledge Tracing, 심층 지식 추적) 모델을 이용하여 지식 상태를 추적하는 웹 서비스
 
 ## README
-
-<a class="badge-anchor"  target="_blank" rel="noopener noreferrer" href="https://github.com/bcaitech1/p4-dkt-dkdkt"><img style="margin: 3px;" class="badge" title="DKDKT_Repository" src="https://img.shields.io/badge/DKDKT_Repository-yellowgreen?style=for-the-badge&logo=github"></a>
+<a class="badge-anchor" target="_blank" rel="noopener noreferrer" href="https://www.github.com/bcaitech1/p4-dkt-dkdkt"><img style="margin: 3px;" class="badge" title="DKDKT_Repository" src="https://img.shields.io/badge/DKDKT_Repository-yellowgreen?style=for-the-badge&logo=github"></a>
 
 ## 발표 자료
 
