@@ -1,12 +1,12 @@
 # Do you know yourself?
-  
-<img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/beb5427a-e9ce-42fe-956b-5df207cfd7c4/1.gif?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20221106%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20221106T075407Z&X-Amz-Expires=86400&X-Amz-Signature=a571420c7b90f062f664182aec651bf63425d7b2e4f5c0de6e36c0b6079b26fe&X-Amz-SignedHeaders=host&x-id=GetObject"/>
 
-<img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/ee38cc23-03e8-4ee5-8002-d0f4ca19c019/2.gif?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20221106%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20221106T075407Z&X-Amz-Expires=86400&X-Amz-Signature=d186a157ee6a51f7bfa9631c2f1ab2510cb03549bd2b8311d8418e8d377870ae&X-Amz-SignedHeaders=host&x-id=GetObject">
+
+![image](https://user-images.githubusercontent.com/52690486/207774564-eabfa1b6-063a-472e-a3c9-7a81d9d9b7b9.png)
+
 
 > DKT(Deep Knowledge Tracing, 심층 지식 추적) 모델을 이용하여 지식 상태를 추적하는 웹 서비스
 
-## README
+## 기술 관련 README
 <a class="badge-anchor" target="_blank" rel="noopener noreferrer" href="https://www.github.com/bcaitech1/p4-dkt-dkdkt"><img style="margin: 3px;" class="badge" title="DKDKT_Repository" src="https://img.shields.io/badge/DKDKT_Repository-yellowgreen?style=for-the-badge&logo=github"></a>
 
 ## 발표 자료
@@ -15,8 +15,30 @@
   
 ## 시연(Showcase)
 
-<a class="badge-anchor" target="_blank" rel="noopener noreferrer" href="http://ec2-13-209-70-152.ap-northeast-2.compute.amazonaws.com"><img style="margin: 3px;" class="badge" title="시연용 웹사이트(Showcase website)" src="https://img.shields.io/badge/시연용 웹사이트(Showcase website)-skyblue?style=for-the-badge&logo=googlechrome"></a> <img src="https://badgen.net/badge/status/success/green" >
+<a class="badge-anchor" target="_blank" rel="noopener noreferrer" href="ec2-43-201-15-7.ap-northeast-2.compute.amazonaws.com"><img style="margin: 3px;" class="badge" title="시연용 웹사이트(Showcase website)" src="https://img.shields.io/badge/시연용 웹사이트(Showcase website)-skyblue?style=for-the-badge&logo=googlechrome"></a> <img src="https://badgen.net/badge/status/success/green" >
 - 서버 비용 관계로 일부 기간 동안에는 작동하지 않습니다.
+
+## 개요
+- 사용자는 4개의 주제, 3가지의 난이도로 이루어진 상식문제 5문제를 푼다.
+- 사용자의 시계열 데이터는 feature engineering을 통해 모델에 넣을 수 있게 가공된다.
+- 가공된 데이터를 모델에 넣고 다음에 어떤 문제를 쉬워하고 어떤 문제를 어려워할 지 모델이 추론하여 알려준다.
+- 데이터가 일정량 쌓이면 모델은 이를 추가하여 새롭게 학습한다.
+
+### 튜토리얼
+
+- ![1](https://user-images.githubusercontent.com/46857207/122681837-3a672200-d231-11eb-8e65-63ccb3b6f21d.gif)
+1. 상식 주제를 골라 문제를 푼다.
+
+---
+
+- ![2](https://user-images.githubusercontent.com/46857207/122681900-7d28fa00-d231-11eb-818a-929569e55312.gif)
+2. 문제를 다 풀면 사용자가 쉬워 할 문제와 어려워 할 문제를 모델이 추론하여 보여준다.
+
+---
+
+### 효과
+-  누구나 개인 지도 선생님을 갖게 되는 효과가 있어 효율적으로 학습이 가능하다.
+
 
 ## 배포(Deployment)
 
