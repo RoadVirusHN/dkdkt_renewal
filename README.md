@@ -1,13 +1,11 @@
 # Do you know yourself?
 
-
-![image](https://user-images.githubusercontent.com/52690486/207774564-eabfa1b6-063a-472e-a3c9-7a81d9d9b7b9.png)
-
+![image](https://user-images.githubusercontent.com/52690486/207782214-652a3eee-72ff-4796-adcb-740613384766.png)
 
 > DKT(Deep Knowledge Tracing, 심층 지식 추적) 모델을 이용하여 지식 상태를 추적하는 웹 서비스
 
 ## 기술 관련 README
-<a class="badge-anchor" target="_blank" rel="noopener noreferrer" href="https://www.github.com/bcaitech1/p4-dkt-dkdkt"><img style="margin: 3px;" class="badge" title="DKDKT_Repository" src="https://img.shields.io/badge/DKDKT_Repository-yellowgreen?style=for-the-badge&logo=github"></a>
+<a class="badge-anchor" target="_blank" rel="noopener noreferrer" href="https://github.com/bcaitech1/p4-dkt-dkdkt"><img style="margin: 3px;" class="badge" title="DKDKT_Repository" src="https://img.shields.io/badge/DKDKT_Repository-yellowgreen?style=for-the-badge&logo=github"></a>
 
 ## 발표 자료
 
@@ -15,7 +13,7 @@
   
 ## 시연(Showcase)
 
-<a class="badge-anchor" target="_blank" rel="noopener noreferrer" href="ec2-43-201-15-7.ap-northeast-2.compute.amazonaws.com"><img style="margin: 3px;" class="badge" title="시연용 웹사이트(Showcase website)" src="https://img.shields.io/badge/시연용 웹사이트(Showcase website)-skyblue?style=for-the-badge&logo=googlechrome"></a> <img src="https://badgen.net/badge/status/success/green" >
+<a class="badge-anchor" target="_blank" rel="noopener noreferrer" href="http://ec2-43-201-15-7.ap-northeast-2.compute.amazonaws.com"><img style="margin: 3px;" class="badge" title="시연용 웹사이트(Showcase website)" src="https://img.shields.io/badge/시연용 웹사이트(Showcase website)-skyblue?style=for-the-badge&logo=googlechrome"></a> <img src="https://badgen.net/badge/status/success/green" >
 - 서버 비용 관계로 일부 기간 동안에는 작동하지 않습니다.
 
 ## 개요
