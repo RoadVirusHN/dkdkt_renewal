@@ -13,7 +13,7 @@
   
 ## 시연(Showcase)
 
-<a class="badge-anchor" target="_blank" rel="noopener noreferrer" href="http://ec2-43-201-15-7.ap-northeast-2.compute.amazonaws.com"><img style="margin: 3px;" class="badge" title="시연용 웹사이트(Showcase website)" src="https://img.shields.io/badge/시연용 웹사이트(Showcase website)-skyblue?style=for-the-badge&logo=googlechrome"></a> <img src="https://badgen.net/badge/status/success/green" >
+<a class="badge-anchor" target="_blank" rel="noopener noreferrer" href="http://ec2-3-36-51-91.ap-northeast-2.compute.amazonaws.com"><img style="margin: 3px;" class="badge" title="시연용 웹사이트(Showcase website)" src="https://img.shields.io/badge/시연용 웹사이트(Showcase website)-skyblue?style=for-the-badge&logo=googlechrome"></a> <img src="https://badgen.net/badge/status/success/green" >
 - 서버 비용 관계로 일부 기간 동안에는 작동하지 않습니다.
 
 ## 개요
